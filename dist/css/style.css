@@ -1,0 +1,234 @@
+body {
+  background: #fffdfd;
+}
+
+.bg-showcase {
+  background: #f0f3f6;
+}
+
+.nob {
+  border: none;
+}
+
+.btn-main:hover {
+  margin-top: -4px;
+  -webkit-transition: margin-top 0.1s ease-in-out;
+  transition: margin-top 0.1s ease-in-out;
+}
+
+.border1 {
+  border: 1px solid #fff;
+}
+
+.icon-shape {
+  width: 4.5rem;
+  height: 4.5rem;
+  text-align: center;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  border-radius: 50%;
+  font-size: 2rem;
+}
+
+.navbar-default {
+  -webkit-transition: 500ms ease;
+  transition: 500ms ease;
+  background: transparent;
+}
+
+.scrolled {
+  background: rgba(0, 0, 0, 0.4);
+}
+
+#navbar a {
+  text-decoration: none;
+  color: white;
+}
+
+#navbar .underborder {
+  border-bottom: 2px solid white;
+}
+
+#navbar .btn-outline-light:hover {
+  background: #fff;
+  color: #333;
+}
+
+#navbar .dropdown-menu a {
+  color: gray;
+}
+
+#navbar .navbar-brand {
+  text-transform: uppercase;
+}
+
+#navbar .navbar-toggler {
+  color: white;
+  background: #fff;
+}
+
+#home-section {
+  background: url("/img/coworking.jpg") no-repeat center center/cover;
+  height: 600px;
+  position: relative;
+}
+
+#home-section .overlay {
+  background-color: rgba(52, 73, 94, 0.9);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+#home-section .overlay .home-inner {
+  padding-top: 150px;
+}
+
+#progress .card {
+  -webkit-box-shadow: 3px rgba(128, 128, 128, 0.1);
+          box-shadow: 3px rgba(128, 128, 128, 0.1);
+}
+
+#progress .card .card-header {
+  border-bottom: none;
+  background: white;
+}
+
+#progress .width-block {
+  width: auto;
+  height: 25px;
+  border-radius: 10px;
+}
+
+#progress .width-block .width-item {
+  position: relative;
+  height: 25px;
+  width: 1px;
+  -webkit-animation: animate1 3s forwards 3s ease-in-out;
+          animation: animate1 3s forwards 3s ease-in-out;
+}
+
+#progress .width-block .number-pos {
+  display: inline-block;
+  position: relative;
+  top: 0;
+  left: 85%;
+}
+
+img {
+  width: 200px;
+  height: 220px;
+}
+
+#images {
+  /* The Transformation */
+}
+
+#images .imag {
+  overflow: hidden;
+}
+
+#images .img-hover-zoom-brightness img {
+  height: 400px;
+  width: auto;
+  overflow: hidden;
+  -webkit-transition: -webkit-transform 0.2s, -webkit-filter 0.2s ease-in-out;
+  transition: -webkit-transform 0.2s, -webkit-filter 0.2s ease-in-out;
+  transition: transform 0.2s, filter 0.2s ease-in-out;
+  transition: transform 0.2s, filter 0.2s ease-in-out, -webkit-transform 0.2s, -webkit-filter 0.2s ease-in-out;
+  -webkit-transform-origin: center center;
+          transform-origin: center center;
+  -webkit-filter: brightness(50%);
+          filter: brightness(50%);
+}
+
+#images .img-hover-zoom-brightness:hover img {
+  -webkit-filter: brightness(100%);
+          filter: brightness(100%);
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+
+#images .fl {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+#review .image {
+  position: relative;
+  width: 20%;
+  height: 20%;
+  opacity: 1;
+}
+
+#review .image:hover {
+  opacity: 0.8;
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+}
+
+@media (max-width: 768px) {
+  #home-section {
+    height: 700px;
+  }
+  #home-section h1 {
+    font-size: 2rem;
+  }
+}
+
+@media (max-width: 568px) {
+  .navbar-toggler {
+    position: absolute;
+    top: 10px;
+    left: 420px;
+  }
+  .btn-main1 {
+    position: absolute;
+    top: 10px;
+    left: 255px;
+  }
+  .btn-main2 {
+    position: absolute;
+    top: 10px;
+    left: 330px;
+  }
+}
+
+@-webkit-keyframes animate1 {
+  from {
+    top: 0;
+  }
+  to {
+    width: 85%;
+  }
+}
+
+@keyframes animate1 {
+  from {
+    top: 0;
+  }
+  to {
+    width: 85%;
+  }
+}
+/*# sourceMappingURL=style.css.map */
