@@ -151,7 +151,6 @@ img {
     filter: brightness(50%);
   }
 
-  /* The Transformation */
   .img-hover-zoom-brightness:hover img {
     filter: brightness(100%);
     transform: scale(1.1);
