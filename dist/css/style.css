@@ -75,7 +75,7 @@ body {
 }
 
 #home-section {
-  background: url("../img/coworking.jpg") no-repeat center center/cover;
+  background: url("https://github.com/halchenkora/myFirstProject/blob/master/img/coworking.jpg") no-repeat center center/cover;
   height: 600px;
   position: relative;
 }
